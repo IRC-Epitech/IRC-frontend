@@ -1,9 +1,4 @@
-import { useState } from "react";
-import "../App.css";
-
 function Home() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div class="shadow-lg rounded-lg flex flex-col min-h-screen">
