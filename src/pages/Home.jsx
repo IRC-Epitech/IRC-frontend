@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <div class="shadow-lg rounded-lg flex flex-col min-h-screen">
-        <div class="px-5 py-5 flex justify-between items-center bg-white border-b-2">
+        <div class="px-5 py-5 flex justify-between items-center bg-white border-b-2 h-1/6">
           <div class="font-semibold text-2xl">GoingChat</div>
           <div class="w-1/2">
             <input
@@ -21,14 +21,14 @@ function Home() {
           </div>
         </div>
 
-        <div class="flex flex-row justify-between bg-white h-screen">
+        <div class="flex flex-row justify-between bg-white flex-1">
           {/* <!-- chat list --> */}
           <SlideBar />
-            {/* <!-- end chat list --> */}
-            {/* <!-- message --> */}
+          {/* <!-- end chat list --> */}
+          {/* <!-- message --> */}
           <MessageBox />
           {/* <!-- end message --> */}
-          <div class="w-/5 border-l-2 px-5 min-h-screen ">
+          <div class="w-2/6 border-l-2 px-5 ">
             <div class="flex flex-col ">
               <div class="font-semibold text-xl py-4">Mern Stack Group</div>
               <img
