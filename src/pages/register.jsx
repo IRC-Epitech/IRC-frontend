@@ -28,7 +28,7 @@ function Register() {
     e.preventDefault();
     try {
       // Effectuez une requête POST vers votre API d'inscription
-      const response = await axios.post("http://localhost:3000/register", formData);
+      const response = await axios.post("http://localhost:3000/users", formData);
 
       // Si la requête est réussie, vous pouvez gérer la réponse ici
       console.log("Réponse de l'API :", response.data);
