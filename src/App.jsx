@@ -9,7 +9,6 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./pages/home";
 import Register from "./pages/register";
 import Login from "./pages/login";
-import Register from "./pages/register";
 
 function App() {
   const [isConnected, setIsConnected] = useState(socket.connected);
