@@ -4,40 +4,40 @@ import MessageBox from "../components/MessageBox.jsx";
 function Home() {
   return (
     <>
-      <div class="shadow-lg rounded-lg flex flex-col min-h-screen">
-        <div class="px-5 py-5 flex justify-between items-center bg-white border-b-2 h-1/6">
-          <div class="font-semibold text-2xl">GoingChat</div>
-          <div class="w-1/2">
+      <div className="shadow-lg rounded-lg flex flex-col min-h-screen">
+        <div className="px-5 py-5 flex justify-between items-center bg-white border-b-2 h-1/6">
+          <div className="font-semibold text-2xl">GoingChat</div>
+          <div className="w-1/2">
             <input
               type="text"
               name=""
               id=""
               placeholder="search IRL"
-              class="rounded-2xl bg-gray-100 py-3 px-5 w-full"
+              className="rounded-2xl bg-gray-100 py-3 px-5 w-full"
             />
           </div>
-          <div class="h-12 w-12 p-2 bg-yellow-500 rounded-full text-white font-semibold flex items-center justify-center">
+          <div className="h-12 w-12 p-2 bg-yellow-500 rounded-full text-white font-semibold flex items-center justify-center">
             RA
           </div>
         </div>
 
-        <div class="flex flex-row justify-between bg-white flex-1">
+        <div className="flex flex-row justify-between bg-white flex-1">
           {/* <!-- chat list --> */}
           <SlideBar />
           {/* <!-- end chat list --> */}
           {/* <!-- message --> */}
           <MessageBox />
           {/* <!-- end message --> */}
-          <div class="w-2/6 border-l-2 px-5 ">
-            <div class="flex flex-col ">
-              <div class="font-semibold text-xl py-4">Mern Stack Group</div>
+          <div className="w-2/6 border-l-2 px-5 ">
+            <div className="flex flex-col ">
+              <div className="font-semibold text-xl py-4">Mern Stack Group</div>
               <img
                 src="https://source.unsplash.com/L2cxSuKWbpo/600x600"
-                class="object-cover rounded-xl h-64"
+                className="object-cover rounded-xl h-64"
                 alt=""
               />
-              <div class="font-semibold py-4">Created 22 Sep 2021</div>
-              <div class="font-light">
+              <div className="font-semibold py-4">Created 22 Sep 2021</div>
+              <div className="font-light">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Deserunt, perspiciatis!
               </div>
